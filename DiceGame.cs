@@ -81,7 +81,7 @@ namespace FindTheBugs
         {
             _player.Position += steps;  //eddig szorzás volt
 
-            if (_player.Position == 3 * _gameLength) 
+            if (_player.Position == 3 * _gameLength)  
             {
                 Console.WriteLine("You have WON!");
             }
